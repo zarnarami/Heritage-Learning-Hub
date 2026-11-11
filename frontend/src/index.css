@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #fdfbf7;
+    color: #1e293b;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-heritage {
+    font-family: 'Cinzel', serif;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1ede2;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ca8a04;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a16207;
+}
+
+/* Heritage Decorative Accents */
+.heritage-border {
+  border-image: linear-gradient(to right, #ea580c, #d4af37, #0f2c59) 1;
+}
+
+.heritage-gradient-text {
+  background: linear-gradient(135deg, #ea580c 0%, #d4af37 50%, #0f2c59 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-gradient {
+  background: linear-gradient(135deg, #d4af37 0%, #fef08a 50%, #b8860b 100%);
+}
+
+.royal-glass {
+  background: rgba(15, 44, 89, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}

@@ -1,0 +1,25 @@
+{
+  "name": "heritage-learning-hub",
+  "version": "1.0.0",
+  "description": "Heritage Learning Hub - A Digital Platform for Indian Culture, History & Heritage Education",
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "seed": "npm --prefix backend run seed",
+    "server": "npm --prefix backend run dev",
+    "client": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build"
+  },
+  "keywords": [
+    "heritage",
+    "indian-culture",
+    "history",
+    "education",
+    "react",
+    "nodejs",
+    "mongodb",
+    "asi",
+    "unesco"
+  ],
+  "author": "Heritage Learning Hub Academic Council",
+  "license": "MIT"
+}
