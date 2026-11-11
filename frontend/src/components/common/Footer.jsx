@@ -170,8 +170,9 @@ const Footer = () => {
 
         {/* Bottom Banner */}
         <div className="pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-slate-400">
-          <p>
-            © {new Date().getFullYear()} Heritage Learning Hub. Built for Academic and Cultural Excellence.
+          <p className="flex flex-wrap items-center gap-1 text-center sm:text-left">
+            <span>© {new Date().getFullYear()} Heritage Learning Hub.</span>
+            <span className="text-slate-300 font-medium">Created by Zarna Rami</span>
           </p>
           <div className="flex items-center gap-4">
             <span className="flex items-center gap-1 text-slate-300">
